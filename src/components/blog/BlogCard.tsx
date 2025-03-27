@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { formatDate } from 'date-fns';
 import type { NotionPost } from '@/lib/notion';
